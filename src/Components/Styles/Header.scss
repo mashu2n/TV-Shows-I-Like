@@ -1,0 +1,8 @@
+@import '../Variables/Variables.scss';
+
+.header {
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: url(https://images.unsplash.com/photo-1587132129911-80e544e7e7b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cG9wY29ybnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-color: $redColor;
+}
