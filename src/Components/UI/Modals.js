@@ -15,8 +15,8 @@ const Modals = (props) => {
 
   return (
     <React.Fragment>
-      <Button variant="primary" onClick={modalHandleOpen}>
-        Welcome
+      <Button onClick={modalHandleOpen} className="button">
+        Leave a Comment!
       </Button>
       <Modal show={showModal} onHide={modalHandleClose}>
         <ModalHeader closeButton>
