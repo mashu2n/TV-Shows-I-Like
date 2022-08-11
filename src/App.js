@@ -5,6 +5,7 @@ import "./App.scss";
 import Nav from "./Components/UI/Nav";
 import Header from "./Components/Layout/Header";
 import Cards from "./Components/UI/Cards";
+import SubmitButton from "./Components/UI/SubmitButton";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <main>
         <Cards />
+        <SubmitButton />
       </main>
     </div>
   );
