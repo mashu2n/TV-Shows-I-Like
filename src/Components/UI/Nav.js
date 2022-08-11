@@ -1,17 +1,18 @@
 import React from "react";
+import { Navbar } from "react-bootstrap";
 import "../Styles/Navbar.css";
 
-function Navbar() {
+function Nav() {
   return (
-    <div className="navbar">
+    <Navbar sticky="top" className="navbar">
       <div className="links">
         <a href="/Home">Home</a>
         <a href="/Older Shows">Older Shows</a>
         <a href="/Newer Shows">Newer Shows</a>
         <a href="/Genre">Genre</a>
       </div>
-    </div>
+    </Navbar>
   );
 }
 
-export default Navbar;
+export default Nav;

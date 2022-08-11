@@ -2,14 +2,18 @@ import React from "react";
 
 import "./App.scss";
 
-import Navbar from "./Components/UI/Navbar";
+import Nav from "./Components/UI/Nav";
 import Header from "./Components/Layout/Header";
+import Cards from "./Components/UI/Cards";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Nav />
       <Header />
+      <main>
+        <Cards />
+      </main>
     </div>
   );
 }
