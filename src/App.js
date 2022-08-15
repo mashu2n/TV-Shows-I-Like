@@ -4,7 +4,7 @@ import "./App.scss";
 
 import Nav from "./Components/UI/Nav";
 import Header from "./Components/Layout/Header";
-import Cards from "./Components/UI/Cards";
+import Shows from "./Components/UI/show/Shows";
 import CommentButton from "./Components/UI/CommentButton";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Nav />
       <Header />
       <main>
-        <Cards />
+        <Shows />
         <CommentButton />
       </main>
     </div>

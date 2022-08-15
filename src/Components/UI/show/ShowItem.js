@@ -1,19 +1,13 @@
 import React from "react";
+import { Card, Col, Row } from "react-bootstrap";
 
-import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
-
-const Cards = (props) => {
+const ShowItem = (props) => {
   return (
-    <Row xs={1} md={2} className="g-4">
+    <Row xs={1} md={4} className="g-4">
       {Array.from({ length: 4 }).map((_, idx) => (
         <Col>
           <Card>
-            <Card.Img
-              variant="top"
-              src="https://images-na.ssl-images-amazon.com/images/I/811a2cuLuIL._RI_.jpg"
-            />
+            <Card.Img variant="top" src={"holder.js/100px160"} />
             <Card.Body>
               <Card.Title>Card title</Card.Title>
               <Card.Text>
@@ -29,4 +23,4 @@ const Cards = (props) => {
   );
 };
 
-export default Cards;
+export default ShowItem;

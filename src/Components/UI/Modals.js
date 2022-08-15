@@ -4,6 +4,8 @@ import {
   FloatingLabel,
   Form,
   Modal,
+  ModalBody,
+  ModalFooter,
   ModalHeader,
 } from "react-bootstrap";
 
@@ -21,6 +23,8 @@ const Modals = (props) => {
       <Modal show={showModal} onHide={modalHandleClose}>
         <ModalHeader closeButton>
           <Modal.Title>Share Your Common Interests!</Modal.Title>
+        </ModalHeader>
+        <ModalBody>
           <FloatingLabel controlId="floatingTextarea2" label="Comments">
             <Form.Control
               as="textarea"
@@ -28,7 +32,14 @@ const Modals = (props) => {
               style={{ height: "100px" }}
             />
           </FloatingLabel>
-        </ModalHeader>
+          <ModalFooter>
+            <Button variant="secondary" onClick={modalHandleClose}>
+              Close
+            </Button>
+
+            <Button variant="primary">Submit</Button>
+          </ModalFooter>
+        </ModalBody>
       </Modal>
     </React.Fragment>
   );
