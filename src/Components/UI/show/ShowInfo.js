@@ -23,7 +23,11 @@ const ShowInfo = () => {
       genre={show.price}
     />
   ));
-  return <ShowItem>{showList}</ShowItem>;
+  return (
+    <section>
+      <ShowItem>{showList}</ShowItem>
+    </section>
+  );
 };
 
 export default ShowInfo;

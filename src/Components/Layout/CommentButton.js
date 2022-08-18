@@ -1,10 +1,10 @@
 import React from "react";
 
 import "../Styles/Button.css";
-import Modals from "./Modals";
+import Modals from "../UI/Modals";
 
 const CommentButton = (props) => {
-  return <Modals></Modals>;
+  return <Modals />;
 };
 
 export default CommentButton;

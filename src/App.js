@@ -4,8 +4,8 @@ import "./App.scss";
 
 import Nav from "./Components/UI/Nav";
 import Header from "./Components/Layout/Header";
-import Shows from "./Components/UI/show/Shows";
-import CommentButton from "./Components/UI/CommentButton";
+import Shows from "./Components/Layout/OlderShows";
+import CommentButton from "./Components/Layout/CommentButton";
 
 function App() {
   return (
